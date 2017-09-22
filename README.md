@@ -1,13 +1,13 @@
 # sambda-server-config
 
-##安装samba ：一共有两个应用
+## 安装samba ：一共有两个应用
 
 ```
 sudo apt-get install samba
 sudo apt-get install smbclient
 ```
 
-##修改samba 的配置文件
+## 修改samba 的配置文件
 
 打开配置文件：vim /etc/samba/smb.conf
 
@@ -25,7 +25,7 @@ browseable = yes
 forceuser=root
 forcegroup=root
 ```
-##重启samba
+## 重启samba
 ```
 sudo /etc/init.d/samba restart
 ```
